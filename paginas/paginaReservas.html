@@ -1,0 +1,37 @@
+
+<div class="container">
+    <br>
+    <h1>Reservas</h1>
+    <form action="index.html">
+        <fieldset>
+            <legend>Rellene el formulario de reservas</legend>
+            <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre de la reserva</label>
+            <input type="text" id="nombre" class="form-control" placeholder="Nombre">
+            </div>
+            <div class="mb-3">
+            <label for="horario" class="form-label">Eliga hora de la reserva</label>
+            <select id="horario" class="form-select">
+                <option selected>Horas</option>
+                <option>13:00</option>
+                <option>14:00</option>
+                <option>15:00</option>
+                <option>16:00</option>
+                <option>20:00</option>
+                <option>21:00</option>
+                <option>22:00</option>
+            </select>
+            </div>
+            <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Observaciones</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" onclick="return confirm('Confirmar la reserva')">Enviar</button>
+        </fieldset>
+        </form>
+    <br>
+</div>
