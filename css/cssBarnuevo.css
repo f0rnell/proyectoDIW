@@ -1,22 +1,32 @@
+@font-face {
+    font-family: Woodland;
+    src: url("../fonts/Woodland.ttf");
+}
+.imagenPlantilla{
+    border-radius: 10%;
+}
 .btnMenu {
     background-color: #00D6B6;
     border: none;
     color: rgb(0, 0, 0);
     padding: 16px 32px;
     text-align: center;
-    font-size: 16px;
+    font-size: 30px;
     margin: 4px 2px;
     opacity: 1;
     transition: 0.3s;
 }
 #cuerpo{
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
 body {
+    font-family: Woodland;
     background-image: url("../images/fondo.webp");
     background-size: cover;
     background-color: #FFEFD5;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
 }
 .menuBody{
     background-image: url("../images/menu.webp");
@@ -25,10 +35,46 @@ body {
     color: white;
     text-align: center;
 }
+.titulo{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.pie{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
 header h1{
     color: white;
 }
+legend{
+    font-size: 40px !important;
+}
+select{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px !important;
+}
+option{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px !important;
+}
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px !important;
+}
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px !important;
+}
+button {
+    font-size: 25px !important;
+}
 h1{
     text-align: center;
+}
+p{
+    color: rgb(235, 225, 225) !important;
 }
 .btnMenu:hover {opacity: 0.6}

@@ -24,6 +24,10 @@ $(function () {
         $('#reservas').click(()=>{
             $('#cuerpo').load("paginas/paginaReservas.html?"+ uniqid)
         });
+
+        $('#alergenos').click(()=>{
+            $('#cuerpo').load("paginas/paginaAlergenos.html?"+ uniqid)
+        });
     }
     
 });
