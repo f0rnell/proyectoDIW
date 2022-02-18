@@ -6,6 +6,7 @@
     border-radius: 10%;
 }
 .btnMenu {
+    font-family: Woodland;
     background-color: #00D6B6;
     border: none;
     color: rgb(0, 0, 0);
@@ -21,12 +22,13 @@
 }
 
 body {
-    font-family: Woodland;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
     background-image: url("../images/fondo.webp");
     background-size: cover;
     background-color: #FFEFD5;
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 20px;
 }
 .menuBody{
     background-image: url("../images/menu.webp");
@@ -36,17 +38,29 @@ body {
     text-align: center;
 }
 .titulo{
+    font-family: Woodland;
     color: white;
     text-align: center;
     font-size: 60px;
 }
 .pie{
-    background-color: #000000;
-    color: white;
+    display:inline-block;
     text-align: center;
-    font-size: 60px;
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    padding-bottom: 16px;
+    background: #111;
+    background: rgba(0,0,0,.90);
+    border-top: 2px solid rgb(255, 255, 255);
+    border-left: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    z-index:2000;
 }
 header h1{
+    font-family: Woodland;
     color: white;
 }
 legend{
@@ -72,6 +86,7 @@ button {
     font-size: 25px !important;
 }
 h1{
+    font-family: Woodland;
     text-align: center;
 }
 p{
