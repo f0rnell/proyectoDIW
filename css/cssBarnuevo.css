@@ -223,7 +223,6 @@ li{
 .subscribe_form .submit {
     background-color: #d65106;
     color: #fff;
-    font-size: 16px;
     font-weight: 500;
     line-height: 50px;
     display: inline-block;
@@ -232,7 +231,9 @@ li{
     width: 100%;
 	border: none;
 	cursor: pointer;
+    font-size: 25px !important;
     transition: all 0.5s ease-in-out;
+    text-decoration: none;
 }
 .subscribe_form .submit:hover{
 	background: #010101;
